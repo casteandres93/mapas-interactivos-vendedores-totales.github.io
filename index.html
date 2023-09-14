@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d7aa44c0ce8d96da0fffe43a2217b45c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d7aa44c0ce8d96da0fffe43a2217b45c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d7aa44c0ce8d96da0fffe43a2217b45c = L.map(
+                "map_d7aa44c0ce8d96da0fffe43a2217b45c",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_10bde1189b3837cb76384bcb8740e9c9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var marker_b69ba1068b18a0e115253f450d07e012 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_e5996177815571af52d95dc21556d787 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF5733", "prefix": "glyphicon"}
+            );
+            marker_b69ba1068b18a0e115253f450d07e012.setIcon(icon_e5996177815571af52d95dc21556d787);
+        
+    
+        var popup_bb39062bebf252e7a6c5a79b3e03e2a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f961fa0897e8e66be0f308eb1150e23 = $(`<div id="html_8f961fa0897e8e66be0f308eb1150e23" style="width: 100.0%; height: 100.0%;">Vendedor: ACEVEDO BUSTAMANTE LEIDY JOHANNA Ciudad: Medellín</div>`)[0];
+            popup_bb39062bebf252e7a6c5a79b3e03e2a4.setContent(html_8f961fa0897e8e66be0f308eb1150e23);
+        
+
+        marker_b69ba1068b18a0e115253f450d07e012.bindPopup(popup_bb39062bebf252e7a6c5a79b3e03e2a4)
+        ;
+
+        
+    
+    
+            var marker_889dcd084a5b4c0e55dfd60a98d6bac0 = L.marker(
+                [4.8133, -75.6961],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_58014df2d2721936b9437b6e47a503c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF5733", "prefix": "glyphicon"}
+            );
+            marker_889dcd084a5b4c0e55dfd60a98d6bac0.setIcon(icon_58014df2d2721936b9437b6e47a503c5);
+        
+    
+        var popup_decc26e1bd8667e3a5ae77334f7770b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_658a177361ee55c7bd97d2aa5382cc40 = $(`<div id="html_658a177361ee55c7bd97d2aa5382cc40" style="width: 100.0%; height: 100.0%;">Vendedor: ACEVEDO BUSTAMANTE LEIDY JOHANNA Ciudad: Pereira</div>`)[0];
+            popup_decc26e1bd8667e3a5ae77334f7770b7.setContent(html_658a177361ee55c7bd97d2aa5382cc40);
+        
+
+        marker_889dcd084a5b4c0e55dfd60a98d6bac0.bindPopup(popup_decc26e1bd8667e3a5ae77334f7770b7)
+        ;
+
+        
+    
+    
+            var marker_824b3c7aa09c9492f27db3ee0971343d = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_641a1195048a6219c5d1ca2db15c9dba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF5733", "prefix": "glyphicon"}
+            );
+            marker_824b3c7aa09c9492f27db3ee0971343d.setIcon(icon_641a1195048a6219c5d1ca2db15c9dba);
+        
+    
+        var popup_8ec3deb2d138c4c8b765fc8654b236be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d02136228134d2c705a74c2c2b21cfd9 = $(`<div id="html_d02136228134d2c705a74c2c2b21cfd9" style="width: 100.0%; height: 100.0%;">Vendedor: ACEVEDO BUSTAMANTE LEIDY JOHANNA Ciudad: Cali</div>`)[0];
+            popup_8ec3deb2d138c4c8b765fc8654b236be.setContent(html_d02136228134d2c705a74c2c2b21cfd9);
+        
+
+        marker_824b3c7aa09c9492f27db3ee0971343d.bindPopup(popup_8ec3deb2d138c4c8b765fc8654b236be)
+        ;
+
+        
+    
+    
+            var marker_8b620bc5dd056c1c1f2c67a0df040b22 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_ab1f9b7ae6c2b16ade394dcacc2bf682 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FF57", "prefix": "glyphicon"}
+            );
+            marker_8b620bc5dd056c1c1f2c67a0df040b22.setIcon(icon_ab1f9b7ae6c2b16ade394dcacc2bf682);
+        
+    
+        var popup_34079fb5bb1e2a74c2b12e6aef36cb52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_290a9a4316a086f3bef6ea7fc7af5434 = $(`<div id="html_290a9a4316a086f3bef6ea7fc7af5434" style="width: 100.0%; height: 100.0%;">Vendedor: GOMEZ VELANDIA YOMAIRA CRISTINA Ciudad: Medellín</div>`)[0];
+            popup_34079fb5bb1e2a74c2b12e6aef36cb52.setContent(html_290a9a4316a086f3bef6ea7fc7af5434);
+        
+
+        marker_8b620bc5dd056c1c1f2c67a0df040b22.bindPopup(popup_34079fb5bb1e2a74c2b12e6aef36cb52)
+        ;
+
+        
+    
+    
+            var marker_1ad219dfd531df2ea6d4e6f05485452f = L.marker(
+                [8.0983, -76.7286],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_c744acfa92c51a3feb2dd8823867716e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FF57", "prefix": "glyphicon"}
+            );
+            marker_1ad219dfd531df2ea6d4e6f05485452f.setIcon(icon_c744acfa92c51a3feb2dd8823867716e);
+        
+    
+        var popup_adb858be88293501983a5e67b6bf4663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b0a82a9718f6525f222dc385fdcb826 = $(`<div id="html_3b0a82a9718f6525f222dc385fdcb826" style="width: 100.0%; height: 100.0%;">Vendedor: GOMEZ VELANDIA YOMAIRA CRISTINA Ciudad: Turbo</div>`)[0];
+            popup_adb858be88293501983a5e67b6bf4663.setContent(html_3b0a82a9718f6525f222dc385fdcb826);
+        
+
+        marker_1ad219dfd531df2ea6d4e6f05485452f.bindPopup(popup_adb858be88293501983a5e67b6bf4663)
+        ;
+
+        
+    
+    
+            var marker_1a728f661dda2747edc22087b5780dbe = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_0529e1dd6d23ca761ed61ee26f4f38b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FF57", "prefix": "glyphicon"}
+            );
+            marker_1a728f661dda2747edc22087b5780dbe.setIcon(icon_0529e1dd6d23ca761ed61ee26f4f38b5);
+        
+    
+        var popup_674e66c19cd0a0b00aa5a316ea759c42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43cd7c94dd42c61859c69e6b791f0125 = $(`<div id="html_43cd7c94dd42c61859c69e6b791f0125" style="width: 100.0%; height: 100.0%;">Vendedor: GOMEZ VELANDIA YOMAIRA CRISTINA Ciudad: Cali</div>`)[0];
+            popup_674e66c19cd0a0b00aa5a316ea759c42.setContent(html_43cd7c94dd42c61859c69e6b791f0125);
+        
+
+        marker_1a728f661dda2747edc22087b5780dbe.bindPopup(popup_674e66c19cd0a0b00aa5a316ea759c42)
+        ;
+
+        
+    
+    
+            var marker_d5459420bff467aa83fd6f42a33ad481 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_cb7d24e38e585f3e0b5033f33bf4347c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#5733FF", "prefix": "glyphicon"}
+            );
+            marker_d5459420bff467aa83fd6f42a33ad481.setIcon(icon_cb7d24e38e585f3e0b5033f33bf4347c);
+        
+    
+        var popup_519e24375cb3d596af6a26862828424d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7df9399f7ecda40f7910b176a5264c95 = $(`<div id="html_7df9399f7ecda40f7910b176a5264c95" style="width: 100.0%; height: 100.0%;">Vendedor: GRISALES RAIGOSA CARLOS ANDRES Ciudad: Medellín</div>`)[0];
+            popup_519e24375cb3d596af6a26862828424d.setContent(html_7df9399f7ecda40f7910b176a5264c95);
+        
+
+        marker_d5459420bff467aa83fd6f42a33ad481.bindPopup(popup_519e24375cb3d596af6a26862828424d)
+        ;
+
+        
+    
+    
+            var marker_bd0682af040cf5e9a3f7c4aa641d233e = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_6cbdac5d6c33fe92a8849d7dd3d1a774 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#5733FF", "prefix": "glyphicon"}
+            );
+            marker_bd0682af040cf5e9a3f7c4aa641d233e.setIcon(icon_6cbdac5d6c33fe92a8849d7dd3d1a774);
+        
+    
+        var popup_da1cbe9acbe1edac158b3e3452dac560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62cc17adcc3cde3a71e6ec23a651aa70 = $(`<div id="html_62cc17adcc3cde3a71e6ec23a651aa70" style="width: 100.0%; height: 100.0%;">Vendedor: GRISALES RAIGOSA CARLOS ANDRES Ciudad: Cali</div>`)[0];
+            popup_da1cbe9acbe1edac158b3e3452dac560.setContent(html_62cc17adcc3cde3a71e6ec23a651aa70);
+        
+
+        marker_bd0682af040cf5e9a3f7c4aa641d233e.bindPopup(popup_da1cbe9acbe1edac158b3e3452dac560)
+        ;
+
+        
+    
+    
+            var marker_8de9f1a922090b81201d79b4ce9e1ad3 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_174f1554e44976363f7a1aea25651097 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF33A6", "prefix": "glyphicon"}
+            );
+            marker_8de9f1a922090b81201d79b4ce9e1ad3.setIcon(icon_174f1554e44976363f7a1aea25651097);
+        
+    
+        var popup_8515fffe30d149e8f9bff4bd2ac729fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c7d0730b690fbcafa6faf4d54b32483 = $(`<div id="html_1c7d0730b690fbcafa6faf4d54b32483" style="width: 100.0%; height: 100.0%;">Vendedor: MANCO BONILLA ODILA ESTER Ciudad: Medellín</div>`)[0];
+            popup_8515fffe30d149e8f9bff4bd2ac729fe.setContent(html_1c7d0730b690fbcafa6faf4d54b32483);
+        
+
+        marker_8de9f1a922090b81201d79b4ce9e1ad3.bindPopup(popup_8515fffe30d149e8f9bff4bd2ac729fe)
+        ;
+
+        
+    
+    
+            var marker_35fd883de556032943736fff76c2ff2c = L.marker(
+                [4.8133, -75.6961],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_79b65a318dfaa5a5493eba71709d2d6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF33A6", "prefix": "glyphicon"}
+            );
+            marker_35fd883de556032943736fff76c2ff2c.setIcon(icon_79b65a318dfaa5a5493eba71709d2d6e);
+        
+    
+        var popup_67a2c1f218311109f11790b85c30fbbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5c0fd51a2fdebc14102218f962cc42a = $(`<div id="html_a5c0fd51a2fdebc14102218f962cc42a" style="width: 100.0%; height: 100.0%;">Vendedor: MANCO BONILLA ODILA ESTER Ciudad: Pereira</div>`)[0];
+            popup_67a2c1f218311109f11790b85c30fbbc.setContent(html_a5c0fd51a2fdebc14102218f962cc42a);
+        
+
+        marker_35fd883de556032943736fff76c2ff2c.bindPopup(popup_67a2c1f218311109f11790b85c30fbbc)
+        ;
+
+        
+    
+    
+            var marker_6161b87218b5534b9ea655adaeae9559 = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_06cbe4f0bb05976cc0b26c4e2924c834 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FF33A6", "prefix": "glyphicon"}
+            );
+            marker_6161b87218b5534b9ea655adaeae9559.setIcon(icon_06cbe4f0bb05976cc0b26c4e2924c834);
+        
+    
+        var popup_e6dfcecad26060d7c07d530c64f16622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef4d450daa2a1b9e11d0a2a4b6cc990 = $(`<div id="html_1ef4d450daa2a1b9e11d0a2a4b6cc990" style="width: 100.0%; height: 100.0%;">Vendedor: MANCO BONILLA ODILA ESTER Ciudad: Cali</div>`)[0];
+            popup_e6dfcecad26060d7c07d530c64f16622.setContent(html_1ef4d450daa2a1b9e11d0a2a4b6cc990);
+        
+
+        marker_6161b87218b5534b9ea655adaeae9559.bindPopup(popup_e6dfcecad26060d7c07d530c64f16622)
+        ;
+
+        
+    
+    
+            var marker_f7cd89489281451336fcc811d8895aa3 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_d928d9e3da90b91096c779a770e7d5e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FFC133", "prefix": "glyphicon"}
+            );
+            marker_f7cd89489281451336fcc811d8895aa3.setIcon(icon_d928d9e3da90b91096c779a770e7d5e4);
+        
+    
+        var popup_bcef41ce1803dab6a038f8bc23188527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91077de6a2e15758509b218554f0263c = $(`<div id="html_91077de6a2e15758509b218554f0263c" style="width: 100.0%; height: 100.0%;">Vendedor: MONSALVE GIRALDO ARNOBI ARBEY Ciudad: Medellín</div>`)[0];
+            popup_bcef41ce1803dab6a038f8bc23188527.setContent(html_91077de6a2e15758509b218554f0263c);
+        
+
+        marker_f7cd89489281451336fcc811d8895aa3.bindPopup(popup_bcef41ce1803dab6a038f8bc23188527)
+        ;
+
+        
+    
+    
+            var marker_08409aca50c870dec1609d99f7837d4c = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_e7f87f8b64696352e0b1c1d647afd083 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#FFC133", "prefix": "glyphicon"}
+            );
+            marker_08409aca50c870dec1609d99f7837d4c.setIcon(icon_e7f87f8b64696352e0b1c1d647afd083);
+        
+    
+        var popup_2e593efd443c165c74406bc536e54b9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1fcd0684d5f9b07582742bbcd7ee784 = $(`<div id="html_b1fcd0684d5f9b07582742bbcd7ee784" style="width: 100.0%; height: 100.0%;">Vendedor: MONSALVE GIRALDO ARNOBI ARBEY Ciudad: Cali</div>`)[0];
+            popup_2e593efd443c165c74406bc536e54b9c.setContent(html_b1fcd0684d5f9b07582742bbcd7ee784);
+        
+
+        marker_08409aca50c870dec1609d99f7837d4c.bindPopup(popup_2e593efd443c165c74406bc536e54b9c)
+        ;
+
+        
+    
+    
+            var marker_10d565936568126b6eb7bca6039899f5 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_dec100deec635d3c2a4fb3beceb896ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#8C33FF", "prefix": "glyphicon"}
+            );
+            marker_10d565936568126b6eb7bca6039899f5.setIcon(icon_dec100deec635d3c2a4fb3beceb896ef);
+        
+    
+        var popup_188557a16378b3206f2d04bb04d8ac30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bab7b7835aae330cdb2902fc3d39854c = $(`<div id="html_bab7b7835aae330cdb2902fc3d39854c" style="width: 100.0%; height: 100.0%;">Vendedor: OSPINA VALLEJO MARIA YORLADY Ciudad: Medellín</div>`)[0];
+            popup_188557a16378b3206f2d04bb04d8ac30.setContent(html_bab7b7835aae330cdb2902fc3d39854c);
+        
+
+        marker_10d565936568126b6eb7bca6039899f5.bindPopup(popup_188557a16378b3206f2d04bb04d8ac30)
+        ;
+
+        
+    
+    
+            var marker_3ecca55c9878fabee47060177590eb4e = L.marker(
+                [4.8133, -75.6961],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_973f47af54acbee91bd4fe8d8b2d41d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#8C33FF", "prefix": "glyphicon"}
+            );
+            marker_3ecca55c9878fabee47060177590eb4e.setIcon(icon_973f47af54acbee91bd4fe8d8b2d41d1);
+        
+    
+        var popup_19024bbed0de6492db8d4a8f5d4bb4df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34fd1866997b12b4c9ed519b27102e74 = $(`<div id="html_34fd1866997b12b4c9ed519b27102e74" style="width: 100.0%; height: 100.0%;">Vendedor: OSPINA VALLEJO MARIA YORLADY Ciudad: Pereira</div>`)[0];
+            popup_19024bbed0de6492db8d4a8f5d4bb4df.setContent(html_34fd1866997b12b4c9ed519b27102e74);
+        
+
+        marker_3ecca55c9878fabee47060177590eb4e.bindPopup(popup_19024bbed0de6492db8d4a8f5d4bb4df)
+        ;
+
+        
+    
+    
+            var marker_0580b63ace36048bc6f8355c59477aa2 = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_e1b55dfa1d3d83cfc91953a6a1a3ce76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#8C33FF", "prefix": "glyphicon"}
+            );
+            marker_0580b63ace36048bc6f8355c59477aa2.setIcon(icon_e1b55dfa1d3d83cfc91953a6a1a3ce76);
+        
+    
+        var popup_8d9d9737bdd84a4fa820eb4c30a75944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0f714a3a7436a29cfe022da6e24b954 = $(`<div id="html_f0f714a3a7436a29cfe022da6e24b954" style="width: 100.0%; height: 100.0%;">Vendedor: OSPINA VALLEJO MARIA YORLADY Ciudad: Cali</div>`)[0];
+            popup_8d9d9737bdd84a4fa820eb4c30a75944.setContent(html_f0f714a3a7436a29cfe022da6e24b954);
+        
+
+        marker_0580b63ace36048bc6f8355c59477aa2.bindPopup(popup_8d9d9737bdd84a4fa820eb4c30a75944)
+        ;
+
+        
+    
+    
+            var marker_752215a7aa55508f17f8802bcaa172e2 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_71102c739fe36abf215b80c9d4bcd670 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FFF2", "prefix": "glyphicon"}
+            );
+            marker_752215a7aa55508f17f8802bcaa172e2.setIcon(icon_71102c739fe36abf215b80c9d4bcd670);
+        
+    
+        var popup_742003e84c67148960074343632b00fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9da08aa21be39790c14085da0a5de82 = $(`<div id="html_f9da08aa21be39790c14085da0a5de82" style="width: 100.0%; height: 100.0%;">Vendedor: VALLEJO CATAÑO OCTAVIO LEONCIO Ciudad: Medellín</div>`)[0];
+            popup_742003e84c67148960074343632b00fc.setContent(html_f9da08aa21be39790c14085da0a5de82);
+        
+
+        marker_752215a7aa55508f17f8802bcaa172e2.bindPopup(popup_742003e84c67148960074343632b00fc)
+        ;
+
+        
+    
+    
+            var marker_10b0fbd0182d72d820698ca14ac47cad = L.marker(
+                [8.0983, -76.7286],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_3f3b02279e2b303e62822d6694d3e1f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FFF2", "prefix": "glyphicon"}
+            );
+            marker_10b0fbd0182d72d820698ca14ac47cad.setIcon(icon_3f3b02279e2b303e62822d6694d3e1f8);
+        
+    
+        var popup_ac300a171b81db35746c136be73bb5ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d0819b8b7059b16acb446c4d0d9e28f = $(`<div id="html_3d0819b8b7059b16acb446c4d0d9e28f" style="width: 100.0%; height: 100.0%;">Vendedor: VALLEJO CATAÑO OCTAVIO LEONCIO Ciudad: Turbo</div>`)[0];
+            popup_ac300a171b81db35746c136be73bb5ce.setContent(html_3d0819b8b7059b16acb446c4d0d9e28f);
+        
+
+        marker_10b0fbd0182d72d820698ca14ac47cad.bindPopup(popup_ac300a171b81db35746c136be73bb5ce)
+        ;
+
+        
+    
+    
+            var marker_497c53f63953ae4169b9fcbcaa56255f = L.marker(
+                [7.8891, -72.4968],
+                {}
+            ).addTo(map_d7aa44c0ce8d96da0fffe43a2217b45c);
+        
+    
+            var icon_e6af3f6cab73f847888a51c1a89a6d19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "#33FFF2", "prefix": "glyphicon"}
+            );
+            marker_497c53f63953ae4169b9fcbcaa56255f.setIcon(icon_e6af3f6cab73f847888a51c1a89a6d19);
+        
+    
+        var popup_da6be08c76f76f33299908b36bc4de95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79d228a46eede66edf5216129f358d7a = $(`<div id="html_79d228a46eede66edf5216129f358d7a" style="width: 100.0%; height: 100.0%;">Vendedor: VALLEJO CATAÑO OCTAVIO LEONCIO Ciudad: Cúcuta</div>`)[0];
+            popup_da6be08c76f76f33299908b36bc4de95.setContent(html_79d228a46eede66edf5216129f358d7a);
+        
+
+        marker_497c53f63953ae4169b9fcbcaa56255f.bindPopup(popup_da6be08c76f76f33299908b36bc4de95)
+        ;
+
+        
+    
+</script>
+</html>
